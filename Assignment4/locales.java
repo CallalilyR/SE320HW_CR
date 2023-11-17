@@ -1,4 +1,3 @@
-package HW3;
 
 import java.text.NumberFormat;
 import java.text.ParseException;
