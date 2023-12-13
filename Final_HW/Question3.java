@@ -3,9 +3,8 @@ public class Question3 {
 public static <E extends Comparable<E>> int linearSearch(E[] list, E key) {
     
     for (int i = 0; i < list.length; i++){
-        if (list[i] == key){
-            int firstIndexValue = (int) list[0];
-            return firstIndexValue;
+        if (key.compareTo(list[i]) == 0){
+            return i;
         }
     }
  
